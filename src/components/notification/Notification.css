@@ -1,0 +1,150 @@
+/*Notifications Css Start
+--------------------------------*/
+
+.section-title-right ul li a {
+    margin-right: 50px;
+    color: #231f20;
+    font-size: 20px;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+input.notifi-check {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    top: 11px;
+}
+
+input.info-checktwo {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    top: 5px;
+}
+
+input.info-checkthree {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    top: 17px;
+}
+
+.notification-box label {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.notification-box .nice-select {
+    line-height: 40px;
+    width: 140px;
+}
+
+.nav-tabs .nav-link {
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0 !important;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-bottom-color: #ed1f24;
+}
+
+.section-title-right ul li a:hover {
+    color: #ed1f24;
+    border-bottom: 2px solid #ed1f24;
+}
+
+.view-all .select.nice-select {
+    border-radius: 0;
+    border-width: 2px;
+    border-color: #d3d1cb;
+    width: 250px;
+}
+
+.nice-select .list {
+    width: 100%;
+}
+
+.notification-box {
+    border: 2px solid #d3d1cb;
+    background: #fff;
+}
+
+.notification-box ul li .select {
+    border-radius: 0;
+    border-width: 2px;
+    border-color: #d3d1cb;
+}
+
+.notification-box ul li {
+    padding: 15px;
+}
+
+.notification-box ul li .media img {
+    max-width: 55px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .login-info-right,
+    .privacy-right {
+        padding: 50px 0 100px 6px !important;
+    }
+    .section-title-right ul li a {
+        margin-right: 30px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    /* .view-all .select.nice-select {
+        width: auto;
+    } */
+    .view-all .select.nice-select {
+        margin-top: 10px;
+    }
+    .notific-icon i {
+        font-size: 13px;
+        margin: 0;
+    }
+    .notification-area .col-12.col-sm-6 {
+        text-align: center;
+    }
+    .notification-box .nice-select {
+        line-height: 38px;
+        width: 107px;
+        padding-left: 4px;
+        height: 38px;
+        margin-left: 15px;
+    }
+    .ml-20 {
+        margin-left: 15px;
+    }
+    .notification-area .col-12.col-md-6 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .mr-20 {
+        margin-right: 7px;
+    }
+    .section-title-right ul li a {
+        margin-right: 40px !important;
+    }
+    .login-border {
+        border: 0px !important;
+    }
+}
+
+/*Notifications Css End
+--------------------------------*/

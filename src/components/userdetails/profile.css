@@ -1,0 +1,50 @@
+/*=========== profile-groups // end ===========*/
+/*=========== profile-groups // end ===========*/
+
+.user-profile-info .albums-tabs {
+    padding: 0px 0px 20px 0px;
+}
+
+/*==== view-profile // start ====*/
+.user-profile-info .view-profile {
+    padding: 15px 0px 15px 15px;
+    border-bottom: 1px solid #a09f9f;
+}
+
+.user-profile-info .view-profile h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #231f20;
+}
+
+.user-profile-info .general-info h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #231f20;
+    text-transform: capitalize;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #a09f9f;
+}
+
+.user-profile-info .general-info table {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.user-profile-info .general-info {
+    padding: 0px 20px 0px 20px;
+}
+
+.user-profile-info .general-info table td {
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-profile-info .general-info table tr:last-child td:nth-child(2) {
+    color: #ed2024;
+}
+/*==== view-profile // end ====*/
+
+/*=========== profile-groups // end ===========*/
